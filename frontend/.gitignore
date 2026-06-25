@@ -1,0 +1,89 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ============================================
+# Dependencies & Package Managers
+# ============================================
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ============================================
+# Testing
+# ============================================
+/coverage
+
+# ============================================
+# Next.js
+# ============================================
+/.next/
+/out/
+/build
+.turbo/
+
+# ============================================
+# Environment Variables (NEVER commit secrets)
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# ============================================
+# OS & IDE Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.pem
+*.swp
+*.swo
+*~
+
+# ============================================
+# IDE
+# ============================================
+.vscode/
+.idea/
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# ============================================
+# Vercel & Deployment
+# ============================================
+.vercel
+
+# ============================================
+# TypeScript
+# ============================================
+*.tsbuildinfo
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# ============================================
+# Build Cache
+# ============================================
+.eslintcache
+.stylelintcache
+
+# ============================================
+# Local Development
+# ============================================
+.dev/
+debug/
+local_db/
